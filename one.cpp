@@ -9,7 +9,7 @@ void main()
 	for(int y = 0;y <= totaly; y++) {
 		for(int x = 0;x <= totalx; x++)
 			if ((y == 0) || (x == 0) || (x == totalx) || (y == totaly) || ((2*y)==x) || ((2*y+x)==totalx))
-				cout << "o";
+				cout << "X";
 			else
 				cout << " ";
 		cout << "\n";
